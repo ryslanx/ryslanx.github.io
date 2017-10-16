@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Заголовок </title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <section id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+          <div class="header-logo">
+          <img src="" alt="">
+          </div>
+        </div>
+        <div class="col-sm-7 header-nav col-xs-12">
+            <ul>
+              <a href="#header">
+                <li>Главная</li>
+              </a>
+              <a href="#types">
+                <li>Товари</li>
+              </a>
+              <a href="#company">
+                <li>Преимущества</li>
+              </a>
+              <a href="#feedback">
+                <li>Отзывы</li>
+              </a>
+              <a href="#contacts">
+                <li>Контакты</li>
+              </a>
+            </ul>
+          </div>
+        <div class="col-sm-2 col-sm-offset-1 header-number col-xs-12">
+          <h3><a href="tel:+380930329599">+380930329599</a></h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-9 header-text">
+          <h1>
+          <span>
+            Поспешите купить в 2 раза дешевле<br>
+           часы Casio G-Shock
+          </span>
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+         <div class="col-sm-6 header-btn">
+              <button id="more" data-toggle="modal" href="#modal-details">
+                Детальнее
+              </button>
+              <button id="sale" data-toggle="modal" href="#modal-buy">
+                Заказать
+              </button>
+         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 about-header">
+          <h2>В чем особенности часов G-shock</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 about-text">
+          <p>В 1983 году фирма Casio начала производство ударостойких часов,которые поменяли предсталение о том,что часы должны быть нежной драгоценностью.Они имеют багатый функционал: автоматическое светлодиодное подсвечивание,функцию мирового времени,секундомер,таймер,5 ежедневных будильников,календар.Все часы есть водонепронекные до 200 м.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="types">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 types-header">
+          <h2>Виды часов</h2>
+        </div>
+      </div>
+      <div class="row types-cards">
+      <div class="col-sm-5 col-md-5  col-lg-2 col-lg-offset-2 types-watch">
+        <img src="img/clock-1.jpg" alt="">
+        <a href="#modal-watch-1"><h3>CASIO GA-500-7AER </h3></a>
+        <div class="row">
+          <div class="col-sm-5 col-xs-6"><p>999 руб.</p></div>
+          <div class="col-sm-2 col-xs-6 "><button id="buy" data-toggle="modal" href="#modal-watch-1">Купить</button></div>
+        </div>
+      </div>
+      <div class="col-sm-5 col-md-6 col-lg-2 types-watch">
+         <img src="img/clock-2.jpg" alt="">
+        <a href=""><h3>CASIO GWN-Q1000MC </h3></a>
+        <div class="row">
+          <div class="col-sm-5 col-xs-6"><p>999 руб.</p></div>
+          <div class="col-sm-3 col-xs-6">
+          <button id="buy" data-toggle="modal" href="#modal-watch-2">Купить</button></div>
+        </div>
+      </div>
+      <div class="col-sm-5 col-md-5  col-lg-2 types-watch">
+        <img src="img/clock-3.png" alt="">
+        <a href=""><h3>CASIO GWF-D1000-1ER</h3></a>
+        <div class="row">
+          <div class="col-sm-5 col-xs-6"><p>999 руб.</p></div>
+          <div class="col-sm-3 col-xs-6"><button id="buy" data-toggle="modal" href="#modal-watch-3">Купить</button></div>
+        </div>
+      </div>
+      <div class="col-sm-5 col-md-5 col-lg-2 types-watch">
+        <img src="img/clock-4.jpg" alt="">
+        <a href=""><h3>CASIO GA-110DC-2AER </h3></a>
+        <div class="row">
+          <div class="col-sm-5 col-xs-6"><p>999 руб.</p></div>
+          <div class="col-sm-3 col-xs-6"><button id="buy" data-toggle="modal" href="#modal-watch-4">Купить</button></div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="company">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 company-header"><h2>Почему мы лучше остальных</h2></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+           <div class="company-false">
+             <h2>Другие продавцы</h2>
+           </div>
+          <div class="company-items">
+            <div class="company-item">
+            <img src="img/none.png" alt="">
+            <p>Низкое качество</p>
+          </div>
+          <div class="company-item">
+            <img src="img/none.png" alt="">
+            <p>Страна-производитель: Китай,Вьетнам</p>
+          </div>
+          <div class="company-item">
+            <img src="img/none.png" alt="">
+            <p>Часы продаются в целофановом пакете</p>
+          </div>
+          <div class="company-item">
+            <img src="img/none.png" alt="">
+            <p>Похожи на подделку</p>
+          </div>
+          <div class="company-item">
+            <img src="img/none.png" alt="">
+            <p>Долгая обработка заявок</p>
+          </div>
+          <div class="company-item">
+            <img src="img/none.png" alt="">
+            <p>Приходит бракованный товар</p>
+          </div>
+          <div class="company-item">
+            <img src="img/none.png" alt="">
+            <p>Дорогая и долгая доставка</p>
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+        <div class="company-true">
+          <h2>Наша компания</h2>
+        </div>
+        <div class="company-items">
+          <div class="company-item">
+            <img src="img/ok.png" alt="">
+            <p>Високое качество</p>
+          </div>
+          <div class="company-item">
+            <img src="img/ok.png" alt="">
+            <p>Производитель: Швейцария</p>
+          </div>
+          <div class="company-item">
+            <img src="img/ok.png" alt="">
+            <p>Часы продаются в коробке</p>
+          </div>
+          <div class="company-item">
+            <img src="img/ok.png" alt="">
+            <p>100% сходство с оригиналом</p>
+          </div>
+          <div class="company-item">
+            <img src="img/ok.png" alt="">
+            <p>Обробка заявок от 5 до 30 минут</p>
+          </div>
+          <div class="company-item">
+            <img src="img/ok.png" alt="">
+            <p>Время доставки 1-5 дней,стоимость 30 руб.</p>
+          </div>
+          <div class="company-item">
+            <img src="img/ok.png" alt="">
+            <p>Перед отправлением часы проходят проверку</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="deliver">
+    <div class="container">
+    <div class="row">
+      <div class="col-xs-12 types-header">
+        <h2>Как сделать заказ</h2>
+      </div>
+    </div>
+      <div class="row deliver-items">
+        <div class="col-sm-3"><img src="img/list.png" alt="">
+        <p>Оставьте заявку или позвоните</p></div>
+        <div class="col-sm-3"><img src="img/men.png" alt="">
+        <p>Наш специалист уточнит детали по телефону</p></div>
+        <div class="col-sm-3"><img src="img/plane.png" alt="">
+        <p>Отправление товара в день заказа</p></div>
+        <div class="col-sm-3"><img src="img/money.png" alt="">
+        <p>Доставка и оплата товара</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="feedback">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 types-header"><h2>Отзывы</h2></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 feedback-slider">
+          <div class="feedback-item">
+            <div class="col-sm-3">
+              <img src="img/mens.png" alt="">
+            </div>
+            <div class="col-sm-8 feedback-text">
+              <h4>Антон Магеровский</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptates maiores illum explicabo minima animi nulla repudiandae ipsa nesciunt error, tenetur, delectus ab aut minus totam voluptatem aspernatur obcaecati perspiciatis reiciendis, magnam provident quos, doloremque ea? Nihil neque, perspiciatis optio iste deleniti laboriosam, asperiores libero dicta sed sapiente voluptate recusandae.</p>
+            </div>
+          </div>
+          <div class="feedback-item">
+            <div class="col-sm-3">
+              <img src="img/mans-2.jpg" alt="">
+            </div>
+            <div class="col-sm-8 feedback-text">
+              <h4>Ольга Дмитренко</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti eligendi dolorem aperiam explicabo. Ipsa, tempora. Qui sint sit voluptates alias nulla laboriosam eum, odit, ducimus culpa excepturi. Ullam illum blanditiis nobis, animi distinctio deleniti molestiae nam, doloribus ab officiis, et suscipit odio. Architecto totam necessitatibus similique optio dolor delectus.</p>
+            </div>
+          </div>
+          <div class="feedback-item">
+            <div class="col-sm-3">
+              <img src="img/mans-3.jpg" alt="">
+            </div>
+            <div class="col-sm-8 feedback-text">
+              <h4>Артур Игнатенко</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus veritatis labore quasi corporis fugit ipsa iure iste odit, pariatur accusantium repellat dolorem, explicabo ipsum perspiciatis quas fugiat culpa itaque, beatae eveniet id. Labore aliquid quia non maiores quaerat error nulla ex consequatur esse dolor hic, repellendus vel id, amet cupiditate.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contacts">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 types-header"><h2>Контакты</h2></div>
+        <div class="col-xs-6 number">
+          <p>+380930329599</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+            <div class="modal fade" id="modal-details" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                
+              </div>
+              <div class="modal-body">
+               <div class="row details-row">
+               <div class="col-xs-12 types-header">
+                 <h2>Про годинники G-SHOCK</h2>
+               </div> 
+                <div class="col-sm-12 details-text">
+                  <p>Годинники, які входять до популярної колекції Casio G-Shock- це найкращі спортивні годинники, створені для справжніх любителів активного і спортивного способу життя.Годинники з даної колекції мають захист від води до 200 м!Протиударний полімерний корпус надійно захищає годинник від будь-яких зовнішніх загроз. Годинники мають ряд різноманітних функцій,таких як другий часовий пояс,таймер,автоматичний календар,секундомір і будильник.Деякі моделі мають сонячну батарею,а також місячний календар.Підсвітка допомагає дізнатися котра година у будь-який час.</p>
+                </div>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="modal fade" id="modal-buy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                
+              </div>
+              <div class="modal-body">
+               <div class="row">
+                 <div class="col-xs-12 header-modal">
+                   <h3>Заповнiть форму i наш консультант зв'яжеться з вами</h3> 
+                   <form action="send.php" method="post">
+                     <div class="col-sm-12">
+                     <input type="hidden" name="what" value="Зворотній дзвінок">
+                      <input name="name" type="text" required placeholder="Iм'я..." class="form-control form_input">
+                    </div>
+                 <div class="col-sm-12">
+                    <input name="phone" id="phone-1" type="text" required placeholder="Телефон..." class="form-control form_input">
+                 </div>
+                  <div class="col-sm-12 modal-button">
+                    <button type="submit">
+                      Замовити 
+                    </button>
+                  </div>  
+                   </form>
+                 
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+
+      <div class="modal fade" id="modal-watch-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+            <div class="modal-content modal-content-2">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                
+              </div>
+              <div class="modal-body">
+               <div class="row details-row">
+               <div class="col-xs-12 header-modal-2">
+                 <h3>Casio G-Shock GA-500-7AER</h3>
+               </div> 
+                <div class="row">
+                <div class="col-sm-6 modal-img">
+                  <img src="img/g-shock-1.png" alt="" class="img-responsive">
+                </div>
+                  <div class="col-sm-6 text-modal">
+                  <p>Годинники, які входять до популярної колекції Casio G-Shock- це найкращі спортивні годинники, створені для справжніх любителів активного і спортивного способу життя.Годинники з даної колекції мають захист від води до 200 м!Протиударний полімерний корпус надійно захищає годинник від будь-яких зовнішніх загроз. Годинники мають ряд різноманітних функцій,таких як другий часовий пояс,таймер,автоматичний календар,секундомір і будильник.Деякі моделі мають сонячну батарею,а також місячний календар.Підсвітка допомагає дізнатися котра година у будь-який час.</p>
+                </div>
+                </div>
+                <div class="row">
+                  <form action="send.php" method="post">
+                     <div class="col-sm-4 col-xs-12">
+                     <input type="hidden" name="what" value="Зворотній дзвінок клієнту">
+                      <input name="name" type="text" required placeholder="Iм'я..." class="form-control form_input">
+                    </div>
+                 <div class="col-sm-4 col-xs-12">
+                    <input name="phone" id="phone-1" type="text" required placeholder="Телефон..." class="form-control form_input">
+                 </div>
+                  <div class="col-sm-4 col-xs-12 modal-button">
+                    <button type="submit">
+                      Замовити 
+                    </button>
+                  </div>  
+                   </form>
+                </div>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+         <div class="modal fade" id="modal-watch-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+            <div class="modal-content modal-content-2">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                
+              </div>
+              <div class="modal-body">
+               <div class="row details-row">
+               <div class="col-xs-12 header-modal-2">
+                 <h3>Casio G-Shock GWN-Q1000MC</h3>
+               </div> 
+                <div class="row">
+                <div class="col-sm-6 modal-img">
+                  <img src="img/g-shock(4).png" alt="" class="img-responsive">
+                </div>
+                  <div class="col-sm-6 text-modal">
+                  <p>Годинники, які входять до популярної колекції Casio G-Shock- це найкращі спортивні годинники, створені для справжніх любителів активного і спортивного способу життя.Годинники з даної колекції мають захист від води до 200 м!Протиударний полімерний корпус надійно захищає годинник від будь-яких зовнішніх загроз. Годинники мають ряд різноманітних функцій,таких як другий часовий пояс,таймер,автоматичний календар,секундомір і будильник.Деякі моделі мають сонячну батарею,а також місячний календар.Підсвітка допомагає дізнатися котра година у будь-який час.</p>
+                </div>
+                </div>
+                <div class="row">
+                  <form action="send.php" method="post">
+                     <div class="col-sm-4">
+                     <input type="hidden" name="what" value="Зворотній дзвінок">
+                      <input name="name" type="text" required placeholder="Iм'я..." class="form-control form_input">
+                    </div>
+                 <div class="col-sm-4">
+                    <input name="phone" id="phone-1" type="text" required placeholder="Телефон..." class="form-control form_input">
+                 </div>
+                  <div class="col-sm-4 modal-button">
+                    <button type="submit">
+                      Замовити 
+                    </button>
+                  </div>  
+                   </form>
+                </div>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="modal-watch-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+            <div class="modal-content modal-content-2">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                
+              </div>
+              <div class="modal-body">
+               <div class="row details-row">
+               <div class="col-xs-12 header-modal-2">
+                 <h3>Casio G-Shock GWF-D1000-1ER</h3>
+               </div> 
+                <div class="row">
+                <div class="col-sm-6 modal-img">
+                  <img src="img/g-shock(3).jpg.png" alt="" class="img-responsive">
+                </div>
+                  <div class="col-sm-6 text-modal">
+                  <p>Годинники, які входять до популярної колекції Casio G-Shock- це найкращі спортивні годинники, створені для справжніх любителів активного і спортивного способу життя.Годинники з даної колекції мають захист від води до 200 м!Протиударний полімерний корпус надійно захищає годинник від будь-яких зовнішніх загроз. Годинники мають ряд різноманітних функцій,таких як другий часовий пояс,таймер,автоматичний календар,секундомір і будильник.Деякі моделі мають сонячну батарею,а також місячний календар.Підсвітка допомагає дізнатися котра година у будь-який час.</p>
+                </div>
+                </div>
+                <div class="row">
+                  <form action="send.php" method="post">
+                     <div class="col-sm-4">
+                     <input type="hidden" name="what" value="Зворотній дзвінок">
+                      <input name="name" type="text" required placeholder="Iм'я..." class="form-control form_input">
+                    </div>
+                 <div class="col-sm-4">
+                    <input name="phone" id="phone-1" type="text" required placeholder="Телефон..." class="form-control form_input">
+                 </div>
+                  <div class="col-sm-4 modal-button">
+                    <button type="submit">
+                      Замовити 
+                    </button>
+                  </div>  
+                   </form>
+                </div>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="modal fade" id="modal-watch-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+            <div class="modal-content modal-content-2">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                
+              </div>
+              <div class="modal-body">
+               <div class="row details-row">
+               <div class="col-xs-12 header-modal-2">
+                 <h3>Casio G-Shock GA-110DC-2AER</h3>
+               </div> 
+                <div class="row">
+                <div class="col-sm-6 modal-img">
+                  <img src="img/g-shock-2.jpg.png" alt="" class="img-responsive">
+                </div>
+                  <div class="col-sm-6 text-modal">
+                  <p>Годинники, які входять до популярної колекції Casio G-Shock- це найкращі спортивні годинники, створені для справжніх любителів активного і спортивного способу життя.Годинники з даної колекції мають захист від води до 200 м!Протиударний полімерний корпус надійно захищає годинник від будь-яких зовнішніх загроз. Годинники мають ряд різноманітних функцій,таких як другий часовий пояс,таймер,автоматичний календар,секундомір і будильник.Деякі моделі мають сонячну батарею,а також місячний календар.Підсвітка допомагає дізнатися котра година у будь-який час.</p>
+                </div>
+                </div>
+                <div class="row">
+                  <form action="send.php" method="post">
+                     <div class="col-sm-4">
+                     <input type="hidden" name="what" value="Зворотній дзвінок">
+                      <input name="name" type="text" required placeholder="Iм'я..." class="form-control form_input">
+                    </div>
+                 <div class="col-sm-4">
+                    <input name="phone" id="phone-1" type="text" required placeholder="Телефон..." class="form-control form_input">
+                 </div>
+                  <div class="col-sm-4 modal-button">
+                    <button type="submit">
+                      Замовити 
+                    </button>
+                  </div>  
+                   </form>
+                </div>
+               </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        
+
+
+
+
+
+
+    
+
+    <!-- Modal -->
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                
+              </div>
+              <div class="modal-body">
+               <div class="row">
+                 
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+      $(document).ready(function(){
+  $('.feedback-slider').slick({
+    dots:true
+  });
+});
+
+    </script>
+    <script>
+      $(document).ready(function(){
+  $('.slider').slick({
+    dots:true
+  });
+});
+
+    </script>
+    <script>
+      new WOW().init();
+    </script>
+    <script>
+      $(document).ready(
+          function() {
+              $("html").niceScroll({cursorcolor:"#000"});
+          }
+      );
+    </script>
+    <script>
+   
+$(document).ready(function(){
+  $(".header-nav").on("click","a", function (event) {
+    //отменяем стандартную обработку нажатия по ссылке
+    event.preventDefault();
+
+    //забираем идентификатор бока с атрибута href
+    var id  = $(this).attr('href'),
+
+    //узнаем высоту от начала страницы до блока на который ссылается якорь
+      top = $(id).offset().top;
+    
+    //анимируем переход на расстояние - top за 1500 мс
+    $('body,html').animate({scrollTop: top}, 1000);
+  });
+});
+
+</script>
+  </body>
+</html>
